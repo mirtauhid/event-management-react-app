@@ -1,0 +1,49 @@
+//Navbar.js
+import React from 'react';
+import { Nav } from './Navbar.elements';
+const Navbar = () => {
+  return (
+    <div>
+      <Nav>Test</Nav>
+    </div>
+  )
+}
+export default Navbar;
+
+//App.js
+
+import Navbar from './components/Navbar/Navbar';
+
+function App() {
+  return (
+    <div className="App">
+    <Navbar/>
+    </div>
+  );
+}
+
+export default App;
+
+//index.js src wala
+import App from './App';
+ <App />,
+
+ //index.js components wala
+ export { default as Navbar} from './Navbar/Navbar';
+
+ //navbar elemenets wala
+ import styled from 'styled-components';
+
+
+export const Nav = styled.nav`
+background-color: #393939;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+position: sticky;
+top: 0;
+z-index: 999;
+
+`

@@ -1,0 +1,12 @@
+.group {
+  margin: 0 auto;
+  background-color: grey;
+  margin-bottom: 50px;
+  max-width: 480px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.group img {
+  max-width: 400px;
+}

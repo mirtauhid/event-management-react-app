@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1.5rem;
+  --webkit-font-smoothing: antialiased;
+  --noz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 574px) {
+  .article-container {
+    width: 100%;
+  }
+}
+.article-img {
+  border-radius: 20px 20px 0 0;
+}
+.djservices {
+  max-width: calc(180% - 80px);
+}
+.article-container {
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+}
+.article-card {
+  transition: 0.3s;
+  background: #ffffff;
+  box-shadow: 25px 25px 55px #e8e8e8, -25px -25px 55px #ffffff;
+}
+
+.article-card:hover {
+  box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+  cursor: pointer;
+}
+
+.card-title {
+  color: #000;
+}
+.card-para {
+  color: #3a3a3a;
+}
+.span-about {
+  color: #474747;
+  letter-spacing: 0.2rem;
+}
+
+.contact__input {
+  outline: none;
+  font-size: 0.938rem;
+  border: 1.5px solid #0e2431;
+  width: 30rem;
+}
+
+.section-title {
+  position: relative;
+  font-size: 3rem;
+  color: #4070f4;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.background-hero {
+  height: 100vh;
+  background-image: url("../images/background-image.jpg");
+}
+.btn-color {
+  color: #4f46e5;
+}
+
+.footer {
+  padding: 40px 0;
+}
+.container {
+  max-width: 1170px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  color: #ffffff;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #4f46e5;
+  height: 2px;
+  box-sizing: border-box;
+  width: 170px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #bfbfbf;
+  transition: all 0.3s ease;
+  margin-left: 2.2rem;
+}
+
+.footer-col ul li a:hover {
+  color: #4f46e5;
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 90%;
+  }
+}
+.footer-col p {
+  color: #bfbfbf;
+}
+.footer-copy {
+  color: #bfbfbf;
+  margin-bottom: 0;
+}
+.social-links a {
+  background-color: #4f46e5;
+  margin: 0 10px 10px 0;
+  border-radius: 20%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.social-links a:hover {
+  color: #4f46e5;
+  background-color: #ffffff;
+}
+
+/* styling nav  */
+.navStyle {
+  font-size: 1.25rem;
+}
+
+.box-content {
+  max-width: 600px !important;
+}
